@@ -107,3 +107,43 @@ let string2 = 'Fosela';
 //string separados
 let resultado = string1.concat('' + string2);
 console.log(result);//devuelve Hola Fosela
+
+//console.log()
+console.log("Hola mundo");//imprime hola mundop en la consola
+let num = 5;
+console.log(num);//imprime el valor que le hemos dado a la variable num(5)
+let nombre = 'Fosela';
+console.log("Hola, " + nombre +"!");//Hola, Fosela!
+console.log("Nombre: " + nombre + ". Edad: " + num);//Nombre: Fosela. Edad: 5
+//util para imprimir variables o constantes a la vez
+
+//puntos y comas, para terminar una sentencia en JS
+
+let variableOne = 5;  // Declara una variable y le asigna un valor
+let variableTwo = 10; // Declara otra variable y le asigna otro valor
+
+//ejemplo de los comentarios
+// This is to allow English to build without having to download the i18n files.
+// It fails when trying to resolve the i18n-curriculum path if they don't exist.
+const curriculumLocale = process.env.CURRICULUM_LOCALE ?? 'english';
+const I18N_CURRICULUM_DIR = path.resolve(
+  __dirname,
+  curriculumLocale === 'english' ? '.' : 'i18n-curriculum/curriculum'
+);
+//los comentarios en bloque 
+/* Since there can be more than one way to complete a certification (using the
+legacy curriculum or the new one, for instance), we need a certification
+field to track which certification this belongs to. */
+const dupeCertifications = [
+  {
+    certification: 'responsive-web-design',
+    dupe: '2022/responsive-web-design'
+  }
+];
+const hasDupe = dupeCertifications.find(
+  cert => cert.dupe === meta.superBlock
+);
+//evitar sobrecomentar como:
+// This code uses the const keyword to create a new variable called price.
+// We are assigning the number 10 to the price variable.
+const price = 10;

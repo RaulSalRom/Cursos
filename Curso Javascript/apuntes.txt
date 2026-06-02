@@ -412,25 +412,33 @@ cadenas juntas.
 
 
 ¿Para qué se utiliza console.log y cómo funciona?
-Las lecciones anteriores te introdujeron a console.log(), pero esta lección profundizará más en su propósito y uso.
+Las lecciones anteriores te introdujeron a console.log(), pero esta lección 
+profundizará más en su propósito y uso.
 
-En JavaScript, console.log() es una herramienta simple pero poderosa usada para mostrar mensajes o información de salida en la consola del navegador. Los desarrolladores la usan principalmente para depurar e inspeccionar el código mientras trabajan en sus programas.
+En JavaScript, console.log() es una herramienta simple pero poderosa usada para mostrar
+mensajes o información de salida en la consola del navegador. Los desarrolladores la 
+usan principalmente para depurar e inspeccionar el código mientras trabajan en sus 
+programas.
 
-Puedes usar console.log() para registrar texto o variables en la consola y asegurarte de que tu código se está ejecutando correctamente.
+Puedes usar console.log() para registrar texto o variables en la consola y asegurarte de
+que tu código se está ejecutando correctamente.
 
-Para usar console.log(), llama al método con el valor o mensaje que deseas mostrar dentro de los paréntesis. Aquí hay algunos ejemplos:
+Para usar console.log(), llama al método con el valor o mensaje que deseas mostrar 
+dentro de los paréntesis. Aquí hay algunos ejemplos:
 
 console.log("Hello, world!");
 
 let num = 5;
 console.log(num); // 5
-El primer ejemplo imprime Hello, world! en la consola del navegador, mientras que el segundo imprime el valor 5.
+El primer ejemplo imprime Hello, world! en la consola del navegador, mientras que el 
+segundo imprime el valor 5.
 
 Aquí hay otro ejemplo de trabajo con console.log():
 
 let name = "Alice";
 console.log("Hello, " + name + "!"); // Hello, Alice!
-También puedes pasar múltiples valores a console.log() separados por comas. Por ejemplo:
+También puedes pasar múltiples valores a console.log() separados por comas. 
+Por ejemplo:
 
 let name = "Alice";
 let age = 25;
@@ -441,51 +449,74 @@ El método console.log() te ayuda a monitorizar tu código a medida que se ejecu
 
 
 ¿Cuál es el rol de los puntos y comas en JavaScript y en la programación en general?
-En JavaScript, y en muchos otros lenguajes de programación, los puntos y comas ayudan a delinear sentencias y mejoran la legibilidad del código.
+En JavaScript, y en muchos otros lenguajes de programación, los puntos y comas ayudan a
+delinear sentencias y mejoran la legibilidad del código.
 
 En JavaScript, un punto y coma (;) se utiliza para indicar el final de una sentencia.
 
-Al igual que un punto (.) señala el final de una oración en inglés, un punto y coma indica el final de una línea de código ejecutable. Esto permite que el motor de JavaScript distinga entre comandos separados.
+Al igual que un punto (.) señala el final de una oración en inglés, un punto y coma 
+indica el final de una línea de código ejecutable. Esto permite que el motor de 
+JavaScript distinga entre comandos separados.
 
 Por ejemplo:
 
 let variableOne = 5;  // Declare a variable and assign a value
 let variableTwo = 10; // Declare another variable and assign a value
-En este código, los puntos y comas al final de cada línea marcan el final de cada sentencia. Sin ellos, el motor de JavaScript podría tener problemas para interpretar dónde termina una sentencia y comienza otra.
+En este código, los puntos y comas al final de cada línea marcan el final de cada 
+sentencia. Sin ellos, el motor de JavaScript podría tener problemas para interpretar 
+dónde termina una sentencia y comienza otra.
 
-Los puntos y comas se usan principalmente para marcar el final de una sentencia. Esto ayuda al motor de JavaScript a entender la separación de instrucciones individuales, lo cual es importante para una ejecución correcta.
+Los puntos y comas se usan principalmente para marcar el final de una sentencia. 
+Esto ayuda al motor de JavaScript a entender la separación de instrucciones 
+individuales, lo cual es importante para una ejecución correcta.
 
 let a = 1;   // Statement ends here
 let b = 2;   // Another statement starts here
-Aunque JavaScript tiene de Inserción Automática de Puntos y Comas (ASI) que puede agregar puntos y comas automáticamente, incluirlos explícitamente mejora la claridad del código y ayuda a prevenir errores que puedan surgir por un comportamiento inesperado de la ASI.
+Aunque JavaScript tiene de Inserción Automática de Puntos y Comas (ASI) que puede 
+agregar puntos y comas automáticamente, incluirlos explícitamente mejora la claridad 
+del código y ayuda a prevenir errores que puedan surgir por un comportamiento inesperado 
+de la ASI.
 
 Los puntos y comas se utilizan en muchos lenguajes de programación, como C, C++ y Java.
 
-Los puntos y comas marcan el final de sentencias o instrucciones, ayudando al compilador o intérprete a analizar el código correctamente. Un compilador traduce el código de un lenguaje de programación de alto nivel a código legible por máquina, lo que crea un archivo ejecutable.
+Los puntos y comas marcan el final de sentencias o instrucciones, ayudando al 
+compilador o intérprete a analizar el código correctamente. Un compilador traduce el 
+código de un lenguaje de programación de alto nivel a código legible por máquina, lo 
+que crea un archivo ejecutable.
 
-Al delinear claramente las sentencias, los puntos y comas contribuyen a la legibilidad y mantenibilidad del código. Los puntos y comas ayudan a prevenir ambigüedades en la ejecución del código y aseguran que las sentencias se terminen correctamente.
+Al delinear claramente las sentencias, los puntos y comas contribuyen a la legibilidad 
+y mantenibilidad del código. Los puntos y comas ayudan a prevenir ambigüedades en la 
+ejecución del código y aseguran que las sentencias se terminen correctamente.
 
-Los puntos y comas son una parte fundamental de JavaScript y muchos otros lenguajes de programación.
+Los puntos y comas son una parte fundamental de JavaScript y muchos otros lenguajes de 
+programación.
 
-Marcan el final de las sentencias, mejoran la legibilidad del código y ayudan a evitar errores relacionados con la inserción automática de puntos y comas.
+Marcan el final de las sentencias, mejoran la legibilidad del código y ayudan a evitar 
+errores relacionados con la inserción automática de puntos y comas.
 
-Al entender y usar correctamente los puntos y comas, se puede escribir código más confiable y mantenible.
+Al entender y usar correctamente los puntos y comas, se puede escribir código más 
+confiable y mantenible.
 
 
 
 ¿Cuáles son los comentarios en JavaScript y cuándo deberías usarlos?
-Los comentarios en programación se utilizan para proporcionar contexto adicional para el código o dejar notas para ti mismo y otros.
+Los comentarios en programación se utilizan para proporcionar contexto adicional para 
+el código o dejar notas para ti mismo y otros.
 
-Los comentarios son líneas o bloques de texto que son ignorados por el motor de JavaScript cuando se ejecuta tu código. Están allí únicamente para el beneficio de las personas que leen el código, ya seas tú o alguien más.
+Los comentarios son líneas o bloques de texto que son ignorados por el motor de 
+JavaScript cuando se ejecuta tu código. Están allí únicamente para el beneficio de las personas que leen el código, ya seas tú o alguien más.
 
-JavaScript proporciona dos formas de agregar comentarios a tu código: comentarios de línea única y comentarios de varias líneas.
+JavaScript proporciona dos formas de agregar comentarios a tu código: comentarios de 
+línea única y comentarios de varias líneas.
 
-Los comentarios de línea única se crean usando dos barras diagonales (//). Aquí hay un ejemplo:
+Los comentarios de línea única se crean usando dos barras diagonales (//). Aquí hay un 
+ejemplo:
 
 // I am a single line comment in JavaScript
 Este tipo de comentario es excelente para explicaciones o aclaraciones breves.
 
-Aquí hay un ejemplo del mundo real de los archivos del proyecto curricular de freeCodeCamp:
+Aquí hay un ejemplo del mundo real de los archivos del proyecto curricular de 
+freeCodeCamp:
 
 // This is to allow English to build without having to download the i18n files.
 // It fails when trying to resolve the i18n-curriculum path if they don't exist.
@@ -494,13 +525,17 @@ const I18N_CURRICULUM_DIR = path.resolve(
   __dirname,
   curriculumLocale === 'english' ? '.' : 'i18n-curriculum/curriculum'
 );
-No te preocupes por tratar de entender lo que el código realmente hace porque es más avanzado de lo que has aprendido hasta ahora. En su lugar, concéntrate en el comentario dejado por el desarrollador. Este comentario proporciona un contexto importante sobre por qué este código existe.
+No te preocupes por tratar de entender lo que el código realmente hace porque es más 
+avanzado de lo que has aprendido hasta ahora. En su lugar, concéntrate en el comentario
+dejado por el desarrollador. Este comentario proporciona un contexto importante sobre 
+por qué este código existe.
 
 Comentarios como estos son importantes para quienes trabajan en equipos por dos razones:
 
 Otros desarrolladores que trabajan en el proyecto entenderán el propósito de este código.
 
-Ayuda a prevenir cambios o eliminaciones innecesarias sin consultar al equipo, lo que podría llevar a errores o problemas.
+Ayuda a prevenir cambios o eliminaciones innecesarias sin consultar al equipo, 
+lo que podría llevar a errores o problemas.
 
 Otro tipo de comentario es el de varias líneas. Esta es la sintáxis básica:
 
@@ -524,23 +559,37 @@ const dupeCertifications = [
 const hasDupe = dupeCertifications.find(
   cert => cert.dupe === meta.superBlock
 );
-Como antes, ignora todo el código JavaScript porque utiliza conceptos que no se han enseñado todavía. En su lugar, concéntrate en el comentario dejado por el desarrollador.
+Como antes, ignora todo el código JavaScript porque utiliza conceptos que no se han 
+enseñado todavía. En su lugar, concéntrate en el comentario dejado por el desarrollador.
 
-Un desarrollador en el equipo, o incluso un nuevo colaborador trabajando en el proyecto, puede entender por qué este fragmento de código está aquí y tener todo el contexto antes de trabajar en esta área del proyecto.
+Un desarrollador en el equipo, o incluso un nuevo colaborador trabajando en el proyecto,
+puede entender por qué este fragmento de código está aquí y tener todo el contexto 
+antes de trabajar en esta área del proyecto.
 
-Si bien los comentarios son útiles en programación, es importante evitar el exceso de comentarios. No necesitas comentar cada línea de código, especialmente si el código es claro y autoexplicativo.
+Si bien los comentarios son útiles en programación, es importante evitar el exceso de 
+comentarios. No necesitas comentar cada línea de código, especialmente si el código es 
+claro y autoexplicativo.
 
 Aquí hay un ejemplo de uso de comentarios para explicar lo obvio:
 
 // This code uses the const keyword to create a new variable called price.
 // We are assigning the number 10 to the price variable.
 const price = 10;
-En esta situación, no hay necesidad de agregar comentarios aquí porque el código es autoexplicativo. El objetivo es mejorar la legibilidad, no saturar el código con explicaciones innecesarias.
+En esta situación, no hay necesidad de agregar comentarios aquí porque el código es 
+autoexplicativo. El objetivo es mejorar la legibilidad, no saturar el código con 
+explicaciones innecesarias.
 
-Si quieres agregar comentarios a tus proyectos personales mientras aprendes a programar, está bien. Pero una vez que comiences a trabajar en proyectos del mundo real con otros desarrolladores, es importante no usar comentarios para código que es autoexplicativo.
+Si quieres agregar comentarios a tus proyectos personales mientras aprendes a 
+programar, está bien. Pero una vez que comiences a trabajar en proyectos del mundo 
+real con otros desarrolladores, es importante no usar comentarios para código que es 
+autoexplicativo.
 
-También es importante no usar comentarios para justificar un código confuso, demasiado complicado o mal escrito. En esas situaciones, lo mejor es refactorizar o cambiar tu código para que otros desarrolladores entiendan mejor lo que está ocurriendo.
+También es importante no usar comentarios para justificar un código confuso, demasiado 
+complicado o mal escrito. En esas situaciones, lo mejor es refactorizar o cambiar tu 
+código para que otros desarrolladores entiendan mejor lo que está ocurriendo.
 
-Los comentarios son herramientas poderosas para documentar tu código y hacerlo más comprensible. Debes usar comentarios para proporcionar contexto o dejar notas para ti mismo y otros.
+Los comentarios son herramientas poderosas para documentar tu código y hacerlo más 
+comprensible. Debes usar comentarios para proporcionar contexto o dejar notas para ti 
+mismo y otros.
 
 
